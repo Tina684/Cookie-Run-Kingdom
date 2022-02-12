@@ -1,0 +1,49 @@
+body {
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPvrR41lbHwvaTqypOfrkfv8ssg-ha92rHjQ&usqp=CAU");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+h1:first-letter, a:first-letter {
+  font-size:2em;
+}
+
+a[target="_blank"]{
+  color:blue;
+  background-color:white;
+}
+
+main {
+  text-align: center;
+  width: 75%
+  margin: 50px auto 0px auto;
+  line-height:35px;  
+}
+
+mark {
+  background-color: black;
+  color: yellow
+}
+
+nav a:hover{
+  background-color:black;
+  color:yellow;
+}
+
+nav a:active{
+  background-color:yellow;
+  color:black;
+}
+
+*{
+  color: black;
+}
+
+img{
+  width:40%;
+  margin:30px ;
+}
+
+img[alt]{
+  border:2px white dotted;
+}
